@@ -1,6 +1,6 @@
 .fullscreen-image-container {
   width: 100vw;
-  height: 60vh;
+  height: 100vh;
    /* Enable scrolling if image doesn't fit */
    overflow:auto;
 }

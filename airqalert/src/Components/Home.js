@@ -7,7 +7,12 @@ function Home() {
       <div className="fullscreen-image">
         <img src={myImage} alt="home image" />
       </div>
+      <div className='block'>
+        Hii this is the home 
+
+      </div>
     </div>
+
   )
 }
 
