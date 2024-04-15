@@ -24,11 +24,12 @@ const Navbar = () => {
 
                     <LeftContainer>
                         <NavLinksContainer>
-                            <NavLink to="/">Home</NavLink>
+                        <Logo to="/"><b>AirQAlert</b></Logo>
+                            {/* <NavLink to="/">Home</NavLink>
                             <NavLink to="/products">Monitor</NavLink>
                             <NavLink to="/services">Health</NavLink>
                             <NavLink to="/contact">Chatbot</NavLink>
-                            <NavLink to="/about">Profile</NavLink>
+                            <NavLink to="/about">Profile</NavLink> */}
 
                             <OpenLinksButton onClick={() => {
                                 setExtendNavbar((curr) => !curr);
@@ -40,7 +41,12 @@ const Navbar = () => {
                         </NavLinksContainer>
                     </LeftContainer>
                     <RightContainer>
-                        <Logo to="/"><b>AirQAlert</b></Logo>
+                        {/* <Logo to="/"><b>AirQAlert</b></Logo> */}
+                        <NavLink to="/">Home</NavLink>
+                            <NavLink to="/products">Monitor</NavLink>
+                            <NavLink to="/services">Health</NavLink>
+                            <NavLink to="/contact">Chatbot</NavLink>
+                            <NavLink to="/about">Profile</NavLink>
                     </RightContainer>
                 </NavbarInnerContainer>
 
