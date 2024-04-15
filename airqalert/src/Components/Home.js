@@ -1,14 +1,17 @@
 import React from 'react'
 import './HomePage.css';
 import myImage from './Images/Home.png'
+import level from './Images/levels.jpg'
 function Home() {
   return (
     <div className="fullscreen-image-container">
       <div className="fullscreen-image">
         <img src={myImage} alt="home image" />
       </div>
+      <div className='space'></div>
       <div className='block'>
-        Hii this is the home 
+        <img src={level} alt="home image" />
+        
 
       </div>
     </div>
