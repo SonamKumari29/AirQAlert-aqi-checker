@@ -6,6 +6,7 @@ import Journal from './Components/Journal';
 import Explore from './Components/Explore';
 import Consult from './Components/Consult';
 import Profile from './Components/Profile';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
           <Route path='/services'element={<Journal />} />
           <Route path='/contact' element={<Consult />}/>
           <Route path='/about' element={<Profile />}/>
+          
         </Routes>
+        <Footer />
       </Router>
     </>
   );
