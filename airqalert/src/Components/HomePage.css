@@ -1,6 +1,6 @@
 .fullscreen-image-container {
   width: 100vw;
-  height: 60vh;
+  height: 100vh;
    /* Enable scrolling if image doesn't fit */
    overflow:auto;
 }
@@ -8,7 +8,11 @@
 .fullscreen-image {
   /* position: relative; */
   width: 100%;
+  opacity: 0.9;
   
+}
+.space{
+  padding-top: 2rem;
 }
 
 .fullscreen-image img {
@@ -17,4 +21,9 @@
   display: block;
   margin: 0;
   padding: 0;
+}
+.block{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
